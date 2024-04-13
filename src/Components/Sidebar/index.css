@@ -1,0 +1,145 @@
+.side-bar {
+  width: 20%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #0e0d0f;
+  border-right-style: solid;
+  border-right-width: 1px;
+  border-color: #303338;
+}
+
+.top-container {
+  width: 90%;
+  margin-top: 20px;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.logo-title {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 25px;
+  color: #ffffff;
+}
+
+.left-arrow-of-logo {
+  width: 30px;
+  height: 30px;
+  color: #6e7c99;
+}
+
+.create-btn {
+  width: 50%;
+  height: 50px;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #252526;
+  margin-bottom: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
+  color: #ffffff;
+  border-width: 0px;
+}
+
+.plus-icon-of-create-btn {
+  width: 20px;
+  height: 20px;
+  color: #6e7c99;
+  margin-right: 10px;
+}
+
+.paragraph {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
+  color: #ffffff;
+}
+
+.discover-btn {
+  width: 100%;
+  height: 50px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  background-color: #252526;
+  margin-bottom: 20px;
+  padding-left: 15px;
+}
+
+.icon-of-discover {
+  height: 30px;
+  width: 30px;
+  margin-right: 10px;
+  color: #ffffff;
+}
+
+.bottom-container {
+  width: 95%;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-color: #303338;
+}
+
+.try-with-ai-btn {
+  width: 100%;
+  height: 45px;
+  border-radius: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #252526;
+  margin-bottom: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
+  color: #ffffff;
+  border: 1px solid #303338;
+}
+
+.profile-and-logout-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.profile-container {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.profile {
+  background-image: linear-gradient(to bottom, #653ab5, #110624);
+  border-radius: 100%;
+  width: 35px;
+  height: 35px;
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.first-letter-of-user {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.logout-arrow-icon {
+  width: 20px;
+  height: 20px;
+  color: #6e7c99;
+}

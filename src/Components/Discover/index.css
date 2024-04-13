@@ -1,0 +1,180 @@
+.background-color-discover {
+  background-color: #17191c;
+  width: 80%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: auto;
+}
+
+.background-color-discover::-webkit-scrollbar {
+  display: none;
+}
+
+.greeting-and-search-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin-bottom: 30px;
+  margin-top: 20px;
+  flex-shrink: 0;
+}
+
+.welcome-back-text {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 18px;
+  color: #9ea0ad;
+  margin-bottom: 10px;
+}
+
+.profile-container-discover {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.profile-discover {
+  background-image: linear-gradient(to bottom, #653ab5, #110624);
+  border-radius: 100%;
+  width: 25px;
+  height: 25px;
+  margin-right: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.first-letter-of-user-discover {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.user-name {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  color: #ffffff;
+}
+
+.container-of-search-icon-input {
+  display: flex;
+  align-items: center;
+  width: 400px;
+  height: 50px;
+  border-radius: 50px;
+  background-color: #252526;
+  padding: 10px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.search-icon {
+  width: 25px;
+  height: 25px;
+  color: #ffffff;
+  margin-right: 10px;
+}
+
+.input-of-search {
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
+  color: #9ea0ad;
+  border-width: 0px;
+  outline: none;
+}
+
+.dynamic-ad-container {
+  width: 90%;
+  height: 300px;
+  background-image: url("https://img.freepik.com/free-photo/painting-mountain-lake-with-mountain-background_188544-9126.jpg");
+  border-radius: 30px;
+  margin-bottom: 50px;
+  flex-shrink: 0;
+}
+
+.opacity-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-radius: 30px;
+  padding-right: 0px;
+  background-color: rgba(0, 0, 0, 0.75);
+}
+
+.description-dynamic-container {
+  width: 40%;
+  height: 100%;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.title-of-dynamic-ad {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
+  color: #9ea0ad;
+  margin-bottom: 10px;
+}
+
+.description-of-dynamic-ad {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  color: #ffffff;
+}
+
+.restart-container {
+  width: 35px;
+  height: 35px;
+  background-color: #252526;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.2 5);
+}
+
+.icon-of-restart {
+  width: 20px;
+  height: 20px;
+  color: #ffffff;
+}
+
+.chat-container-dynamic {
+  width: 280px;
+  height: 100%;
+  background-color: #17191c;
+  border-radius: 30px;
+  padding: 20px;
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.profile-of-chat-container {
+  display: flex;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.profile-img {
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  margin-right: 10px;
+}
+
+.room-and-description-title {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 18px;
+  color: #ffffff;
+}

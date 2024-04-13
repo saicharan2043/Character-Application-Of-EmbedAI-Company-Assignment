@@ -1,0 +1,33 @@
+.list-item-of-smallcard {
+  width: 320px;
+  height: 100px;
+  padding: 15px;
+  border-radius: 10px;
+  margin-right: 5px;
+  margin-left: 5px;
+  display: flex;
+  align-items: center;
+  background-color: #252526;
+  flex-shrink: 0;
+}
+
+.img-of-smallcard {
+  height: 70px;
+  width: 70px;
+  margin-right: 15px;
+  border-radius: 100px;
+}
+
+.paragraph-of-smallcard {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 13px;
+  color: #ffffff;
+  margin-bottom: 8px;
+}
+
+.description-of-smallcard {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12px;
+  color: #9ea0ad;
+  margin-bottom: 8px;
+}

@@ -1,0 +1,138 @@
+.background-color-of-create {
+  background-color: #17191c;
+  width: 80%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: auto;
+  padding: 20px;
+}
+
+.background-color-of-create::-webkit-scrollbar {
+  display: none;
+}
+
+.container-backbtn-and-view-book {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  margin-bottom: 30px;
+  margin-top: 20px;
+  flex-shrink: 0;
+}
+
+.back-arrow-btn {
+  width: 25px;
+  height: 25px;
+  color: #ffffff;
+}
+
+.book-container {
+  display: flex;
+  align-items: center;
+}
+
+.book-icon {
+  width: 20px;
+  height: 20px;
+  color: #9ea0ad;
+  margin-right: 15px;
+}
+
+.title-of-view-character-text {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
+  color: #ffffff;
+}
+
+.user-details-form {
+  width: 60%;
+  flex-shrink: 0;
+  margin-bottom: 20px;
+}
+
+.profile-container-of-create {
+  width: 90px;
+  height: 90px;
+  border-radius: 100%;
+  background-image: linear-gradient(to right, #e67b4e, #2b2421);
+  margin-bottom: 25px;
+  position: relative;
+}
+
+.container-of-pen-icon {
+  width: 35px;
+  height: 35px;
+  background-color: #262422;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  right: -5px;
+  bottom: -5px;
+}
+
+.pen-icon {
+  width: 20px;
+  height: 20px;
+  color: #ffffff;
+}
+
+.label {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
+  color: #ffffff;
+}
+
+.input {
+  width: 100%;
+  height: 50px;
+  padding: 10px;
+  padding-left: 15px;
+  border: 1px solid #303338;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 13px;
+  color: #9ea0ad;
+  background-color: transparent;
+  outline: none;
+}
+
+.text-area {
+  width: 100%;
+  height: 120px;
+  padding: 10px;
+  padding-left: 15px;
+  border: 1px solid #303338;
+  border-radius: 10px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12px;
+  color: #9ea0ad;
+  background-color: transparent;
+  outline: none;
+  margin-top: 10px;
+}
+
+.create-character-btn {
+  width: 150px;
+  height: 40px;
+  background-color: #9ea0ad;
+  border-radius: 50px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12px;
+  color: #17191c;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-width: 0px;
+  align-self: flex-end;
+  margin-right: 20px;
+  flex-shrink: 0;
+}
