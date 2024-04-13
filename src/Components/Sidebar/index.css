@@ -101,26 +101,6 @@
   display: none;
 }
 
-.chats-list {
-  display: flex;
-  align-items: center;
-  width: 100%;
-  margin-bottom: 20px;
-}
-
-.profile-of-chats {
-  width: 35px;
-  height: 35px;
-  margin-right: 10px;
-  border-radius: 50px;
-}
-
-.username-of-chat-profile {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 15px;
-  color: #ffffff;
-}
-
 .bottom-container {
   width: 95%;
   padding-top: 15px;
@@ -182,6 +162,6 @@
   color: #6e7c99;
 }
 
-Link {
+.Link {
   text-decoration: none;
 }
