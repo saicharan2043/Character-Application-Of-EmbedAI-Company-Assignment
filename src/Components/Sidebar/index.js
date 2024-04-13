@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { MdKeyboardDoubleArrowLeft } from "react-icons/md";
 import { FaPlus } from "react-icons/fa6";
 import { RiCompassDiscoverFill } from "react-icons/ri";
@@ -12,15 +13,55 @@ const Sidebar = () => {
           <h1 className="logo-title">character.ai</h1>
           <MdKeyboardDoubleArrowLeft className="left-arrow-of-logo" />
         </div>
-        <button className="create-btn">
-          <FaPlus className="plus-icon-of-create-btn" />
-          Create
-        </button>
-        <div className="discover-btn">
-          <RiCompassDiscoverFill className="icon-of-discover" />
-          <p className="paragraph">Discover</p>
-        </div>
-        <p className="paragraph">Chats</p>
+        <Link to="/create">
+          <button className="create-btn">
+            <FaPlus className="plus-icon-of-create-btn" />
+            Create
+          </button>
+        </Link>
+        <Link to="/">
+          <div className="discover-btn">
+            <RiCompassDiscoverFill className="icon-of-discover" />
+            <p className="paragraph">Discover</p>
+          </div>
+        </Link>
+        <p className="chats-text">Chats</p>
+        <ul className="chats-ul-list">
+          <Link to="/chatdetails">
+            <li className="chats-list">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQt1APn-w2JJ42fIO3AEisbrskQ8o8Sc6Rdxg&usqp=CAU"
+                className="profile-of-chats"
+                alt="profile"
+              />
+              <p className="username-of-chat-profile">Vida Life Coach</p>
+            </li>
+          </Link>
+          <li className="chats-list">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQt1APn-w2JJ42fIO3AEisbrskQ8o8Sc6Rdxg&usqp=CAU"
+              className="profile-of-chats"
+              alt="profile"
+            />
+            <p className="username-of-chat-profile">Vida Life Coach</p>
+          </li>
+          <li className="chats-list">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQt1APn-w2JJ42fIO3AEisbrskQ8o8Sc6Rdxg&usqp=CAU"
+              className="profile-of-chats"
+              alt="profile"
+            />
+            <p className="username-of-chat-profile">Vida Life Coach</p>
+          </li>
+          <li className="chats-list">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQt1APn-w2JJ42fIO3AEisbrskQ8o8Sc6Rdxg&usqp=CAU"
+              className="profile-of-chats"
+              alt="profile"
+            />
+            <p className="username-of-chat-profile">Vida Life Coach</p>
+          </li>
+        </ul>
       </div>
       <div className="bottom-container">
         <button className="try-with-ai-btn">Try C.ai</button>

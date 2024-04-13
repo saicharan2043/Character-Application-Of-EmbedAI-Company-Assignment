@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { Component } from "react";
 import { MdOutlineKeyboardArrowLeft } from "react-icons/md";
 import { RiBook2Line } from "react-icons/ri";
@@ -12,7 +13,9 @@ class Create extends Component {
     return (
       <div className="background-color-of-create">
         <div className="container-backbtn-and-view-book">
-          <MdOutlineKeyboardArrowLeft className="back-arrow-btn" />
+          <Link to="/">
+            <MdOutlineKeyboardArrowLeft className="back-arrow-btn" />
+          </Link>
           <div className="book-container">
             <RiBook2Line className="book-icon" />
             <p className="title-of-view-character-text">View Character Book</p>
